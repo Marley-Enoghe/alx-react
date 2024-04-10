@@ -1,6 +1,7 @@
 import React from 'react'
 import Holberton_Logo from "./Holberton_Logo.jpg";
 import './App.css';
+import { getFullYear, getFooterCopy } from './utils';
 
 function App() {
   return (
@@ -12,10 +13,17 @@ function App() {
       <hr />
       <body className="App-body">
         <p>Login to access the full dashboard</p>
+        <label htmlFor='email'>
+          Email:
+        </label>
+        <input type='email' id='email'/>
+        <label htmlFor='password'> Password:</label>
+        <input type='password' id='password'/>
+        <button>OK</button>
       </body>
       <footer className="App-footer">
         <hr />
-        <p>copyright 2020 - holberton School</p>
+        <p>copyright {getFullYear()} - {getFooterCopy(true)}</p>
       </footer>
     </div>
   );

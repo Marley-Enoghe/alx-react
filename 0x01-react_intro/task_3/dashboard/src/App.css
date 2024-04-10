@@ -43,3 +43,7 @@ div hr{
   width:98%;
   border-color:rgb(248, 16, 16);
 }
+.App-body label{
+  padding-right:10px;
+
+}
