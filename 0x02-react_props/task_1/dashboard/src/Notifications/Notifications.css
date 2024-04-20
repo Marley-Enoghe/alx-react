@@ -1,0 +1,17 @@
+.Notifications{
+  border: 2px solid red;
+  padding: 2em;
+  font-family:Arial, Helvetica, sans-serif
+}
+ ul li[data-priority="default"] {
+  color: blue;
+}
+
+ul li[data-priority="urgent"] {
+  color: red;
+}
+
+button img{
+  height: 12px;
+ 
+}
