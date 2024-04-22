@@ -1,6 +1,6 @@
 import React from "react";
 import "./Notifications.css";
-import img from "../assets/close-icon.png";
+import image from "../assets/close-icon.png";
 import { getLatestNotification } from "../utils/utils";
 
 const Notifications = () => {
@@ -18,7 +18,7 @@ const Notifications = () => {
         onClick={console.log("Close button has been clicked")}
         aria-label="Close"
       >
-        <img src={img} alt="close-img" />
+        <img src={image} alt="close-img" />
       </button>
       <ul>
         <li data="default">New course available</li>
